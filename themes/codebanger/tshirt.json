@@ -7,7 +7,7 @@
 	"types": ["v-neck", "long sleeve", "crew neck"],
 	"brands": ["canvas","glidan"],
 	"text": [{
-		"value": "code !r",
+		"value": "<code>!r",
 		"color": "green",
 		"font": "",
 		"font-size": "",
