@@ -1,0 +1,51 @@
+{
+	"name": "codebanger",
+	"version": "0.0.1",
+	"description": "codebanger tshirt",
+	"color": "black",
+	"sizes": ["extra-small", "small", "medium", "large", "xl", "xxl", "xxxl"],
+	"types": ["v-neck", "long sleeve", "crew neck"],
+	"brands": ["canvas","glidan"],
+	"text": [{
+		"value": "code !r",
+		"color": "green",
+		"font": "",
+		"font-size": "",
+		"position": {
+			"front": {
+				"top": "center"
+			}
+		}
+	}],
+	"graphics": [{
+		"position": {
+			"front": {
+				"center": "center" // left, center, right
+			}
+		},
+		"asset": {
+			"filename": "assets/filename.ext",
+			"size": {
+				"width": 123,
+				"height": 150
+			}
+		}
+	},{
+		"position": {
+			"sleeve": "left"
+		},
+		"asset": {
+			"filename": "assets/filename2.ext",
+			"size": {
+				"width": 25,
+				"height": 25
+			}
+		}
+	}],
+	"author": "",
+	"contributors": [
+		"Douma Chan<douma@codebaner.store> (http://www.codebanger.store)",
+		"Ramon Lopez<ramon@codebanger.store>"
+	],
+	"license": "MIT"
+}
